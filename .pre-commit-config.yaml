@@ -69,3 +69,11 @@ repos:
     rev: 182152eb8c5ce1cf5299b956b04392c86bd8a126  # frozen: v20.1.8
     hooks:
         -   id: clang-format
+-   repo: https://github.com/gitleaks/gitleaks
+    rev: v8.16.3
+    hooks:
+    -   id: gitleaks
+-   repo: https://github.com/jumanjihouse/pre-commit-hooks
+    rev: 3.0.0
+    hooks:
+    -   id: shellcheck
